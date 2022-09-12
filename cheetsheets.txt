@@ -1,0 +1,8 @@
+touch .gitignore
+git config --global user.name 'xyz'
+git config --global user.email 'youremail@example.com'
+git init
+git add . 
+git commit -m 'Initial commit'
+git remote add origin <ssh url.git>
+git push origin master
